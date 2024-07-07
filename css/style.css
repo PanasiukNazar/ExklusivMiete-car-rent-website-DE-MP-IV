@@ -6591,19 +6591,6 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
-@media (max-width: 992px) {
-    .cookie-wrapper {
-        width: 100%;
-        bottom: 0;
-        left: 0;
-    }
-}
-
-@media (max-width: 700px) {
-    .cookie-wrapper {
-        width: 100%;
-    }
-}
 
 .cookie-wrapper {
     position: fixed;
@@ -6624,6 +6611,20 @@ h6 {
 
 .cookie-wrapper .show {
     right: 20px;
+}
+
+@media (max-width: 992px) {
+    .cookie-wrapper {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .cookie-wrapper {
+        width: 100%;
+    }
 }
 
 .hidden {
