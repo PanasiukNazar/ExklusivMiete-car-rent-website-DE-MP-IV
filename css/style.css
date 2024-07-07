@@ -739,6 +739,12 @@ ul {
     margin-bottom: 70px;
 }
 
+#stars img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* line 10, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_blog.scss */
 .blog_area a {
     color: #666666 !important;
@@ -2902,6 +2908,12 @@ ul {
         text-align: center;
         border-radius: 50%;
     }
+}
+
+#car-rent img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 /* line 40, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_food_menu.scss */
